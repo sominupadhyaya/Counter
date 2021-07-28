@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-header{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #009580;
+}
+
+.scoreboard{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    width: 100vw;
+}
+.scoreboard-name , .scoreboard-score{
+    text-align: center;
+    padding: 10px;
+}
+.scoreboard-name{
+    border-bottom: 1px solid #000
+}
+.scoreboard-score{
+    font-size: 1.6rem;
+}
+.scoreboard-name-1{
+    color: #009570;
+}
+.scoreboard-name-2{
+    color: #2d0095
+}
+.scoreboard-control{
+    display: flex;
+    margin-top: 20%;
+}
+.scoreboard-control-button{
+    flex-grow: 1;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #ddd 
+}
